@@ -24,7 +24,7 @@ print("----  X  -----")
 print(matrix1)
 print("----  Y  -----")
 print(matrix2)
-print("-------------")
+print("-------------!")
 result = np.zeros((3,3))
 
 for i in range(len(matrix1)):
@@ -36,3 +36,5 @@ for i in range(len(matrix1)):
 
 for r in result:
    print(r)
+print("------------")
+print(result)
