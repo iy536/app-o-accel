@@ -25,9 +25,9 @@ for x in range(columns):
 # Matrix multiplication has been performed in following for-loop
 
 for i in range(len(matrix1)):
-      # iterate through columns of Y
+      # iterate through columns of matrix2
       for j in range(len(matrix2[0])):
-        # iterate through rows of Y
+        # iterate through rows of matrix2
         for k in range(len(matrix2)):
            result[i][j] += matrix1[i][k] * matrix2[k][j]
 print(matrix1)
@@ -44,9 +44,9 @@ def matmul(rows,columns):
 		   matrix1[x][y] = random.randrange(0,10); matrix2[x][y] = random.randrange(0,10)
    
    for i in range(len(matrix1)):
-      # iterate through columns of Y
+      # iterate through columns of matrix2
       for j in range(len(matrix2[0])):
-        # iterate through rows of Y
+        # iterate through rows of matrix2
         for k in range(len(matrix2)):
            result2[i][j] += matrix1[i][k] * matrix2[k][j]
            return print(result)
@@ -73,9 +73,9 @@ print(matrix1)
 print(matrix2)
 
 for i in range(len(matrix1)):
-   # iterate through columns of Y
+   # iterate through columns of matrix2
    for j in range(len(matrix2[0])):
-       # iterate through rows of Y
+       # iterate through rows of matrix2
        for k in range(len(matrix2)):
            result[i][j] += matrix1[i][k] * matrix2[k][j]
 
