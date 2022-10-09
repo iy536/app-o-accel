@@ -32,6 +32,7 @@ def matmul(row,columns):
         for k in range(len(matrix2)):
            result[i][j] += matrix1[i][k] * matrix2[k][j]
    print("---- matrix1 ----")
+   
    for m1 in matrix1:
       print(m1)
    print("---- matrix2 ----")
